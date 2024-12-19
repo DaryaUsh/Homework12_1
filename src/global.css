@@ -2,6 +2,9 @@ body {
     color: #fff;
     background: #17181c;
     font-family: sans-serif;
+    max-width: 1920px;
+    height: auto;
+
 }
 
 header {
@@ -11,6 +14,19 @@ header {
 header h1 {
     font-size: 40px;
     font-weight: 800;
+}
+
+main {
+    max-width: 100%;
+    height: 100%;
+}
+
+.sources {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 footer {
